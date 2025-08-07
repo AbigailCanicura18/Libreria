@@ -14,7 +14,7 @@ def agregar_biblioteca(id_biblioteca, nombre_biblioteca, ubicacion_biblioteca):
         cursor.close()
         conexion.close()
 
-def obtener_bibliotecas():
+def obtener_bibliotecas2():
     conexion = obtener_conexion()
     if not conexion:
         return []
